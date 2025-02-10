@@ -1,6 +1,14 @@
 {
   "name": "thank-you-tweet-button-00",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kojidi/thank-you-tweet-button-00.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kojidi/thank-you-tweet-button-00/issues",
+    "email": "rajabihamid75@gmail.com"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
