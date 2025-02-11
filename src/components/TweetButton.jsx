@@ -1,27 +1,24 @@
 import React from "react";
 import "../index.css";
-
 function generateStarIcons(rating) {
     const megaStars = ` 􀀀􀀀􀀀􀀀􀀀 x ${Math.round(rating / 5)}`;
     let stars = "";
-
     for (let i = 0; i < rating; i++) {
-        stars += "􀀀";
+        stars += " 􀀀 ";
     }
-
     return rating > 10 ? megaStars : stars;
 }
-
 export function TweetButton(props) {
     const tweetURL = `https://twitter.com/intent/tweet?
-    text=Thank+you,+%40oluwatobiss.+Your+book+helped+me+create,+test,+
-    and+publish+${props.number && props.number > 1 ? props.number : "an"
+text=Thank+you,+%40oluwatobiss.+Your+book+helped+me+create,+test,+
+and+publish+${props.number && props.number > 1 ? props.number : "an"
         }+NPM+${props.number && props.number > 1 ? "packages" : "package"
-        }.%0A%0ABook's+Rating:+${props.rating}-
-    star+rating!+${generateStarIcons(props.rating)}+%0A%0ACreating%20N
-    PM%20Package:%20React%20JavaScript%20Guide%0A%0Ahttps%3A%
-    2F%2Famzn.to/4aUJ3Qg`;
-    return props.rating ? (
+        }.%0A%0AMy+Favorite:+${props.bestNPMPackage}%0A%0ABook's+Ra
+ting:+${props.rating}-
+star+rating!+${generateStarIcons(props.rating)}+%0A%0ACreating%20N
+PM%20Package:%20React%20JavaScript%20Guide%0A%0Ahttps%3A%
+2F%2Famzn.to/4aUJ3Qg`;
+    return props.rating && props.bestNPMPackage ? (
         <section className="tweet-btn-container">
             <a
                 className="tweet-button"
@@ -48,7 +45,8 @@ export function TweetButton(props) {
                     padding: "15px 20px",
                 }}
             >
-                􀀀 Error: Props 'rating' is missing in 'TweetButtonProps'.
+                􀀀 Error: One or more required props are missing in
+                'TweetButtonProps'.
             </p>
         </div>
     );
