@@ -10,7 +10,7 @@
     "email": "rajabihamid75@gmail.com"
   },
   "description": "",
-  "main": "index.js",
+  "main": "./dist/components/TweetButton.js",
   "scripts": {
     "build": "rm -r dist && babel src -d dist --ignore src/**/*.test.jsx && npm run copy-files",
     "copy-files": "cp ./src/index.css dist/",
