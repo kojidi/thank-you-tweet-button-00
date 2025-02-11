@@ -9,6 +9,7 @@
     "url": "https://github.com/kojidi/thank-you-tweet-button-00/issues",
     "email": "rajabihamid75@gmail.com"
   },
+  "files": ["./dist"],
   "homepage": "https://github.com/kojidi/thank-you-tweet-button-00#readme",
   "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss",
   "main": "./dist/components/TweetButton.js",
