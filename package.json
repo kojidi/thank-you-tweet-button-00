@@ -9,16 +9,23 @@
     "url": "https://github.com/kojidi/thank-you-tweet-button-00/issues",
     "email": "rajabihamid75@gmail.com"
   },
-  "description": "",
+  "homepage": "https://github.com/kojidi/thank-you-tweet-button-00#readme",
+  "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss",
   "main": "./dist/components/TweetButton.js",
   "scripts": {
     "build": "rm -r dist && babel src -d dist --ignore src/**/*.test.jsx && npm run copy-files",
     "copy-files": "cp ./src/index.css dist/",
     "test": "jest --config jest.config.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tweet",
+    "twitter",
+    "button",
+    "thank you", 
+    "thanks"
+  ],
+  "author": "Hamid Rajabi <rajabihamid75@gmail.com> (https://hamidrajabi.com)",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.26.4",
     "@babel/core": "^7.26.8",
