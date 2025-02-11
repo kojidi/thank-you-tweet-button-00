@@ -6,5 +6,7 @@
     },
     "git": {
         "commitMessage": "chore: release v${version}"
-    }
+    },
+    "increment": "conventional:conventionalcommits",
+    "ci": true
 }
