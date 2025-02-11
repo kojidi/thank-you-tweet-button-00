@@ -1,6 +1,6 @@
 {
   "name": "thank-you-tweet-button-00",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/kojidi/thank-you-tweet-button-00.git"
@@ -9,7 +9,9 @@
     "url": "https://github.com/kojidi/thank-you-tweet-button-00/issues",
     "email": "rajabihamid75@gmail.com"
   },
-  "files": ["./dist"],
+  "files": [
+    "./dist"
+  ],
   "homepage": "https://github.com/kojidi/thank-you-tweet-button-00#readme",
   "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss",
   "main": "./dist/components/TweetButton.js",
@@ -22,7 +24,7 @@
     "tweet",
     "twitter",
     "button",
-    "thank you", 
+    "thank you",
     "thanks"
   ],
   "author": "Hamid Rajabi <rajabihamid75@gmail.com> (https://hamidrajabi.com)",
