@@ -18,6 +18,7 @@
   "scripts": {
     "build": "rm -r dist && babel src -d dist --ignore src/**/*.test.jsx && npm run copy-files",
     "copy-files": "cp ./src/index.css dist/",
+    "release": "release-it",
     "test": "jest --config jest.config.json"
   },
   "keywords": [
